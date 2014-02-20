@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\VolVis\VolVis.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VolVis\VolVisDriver.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_VolVis.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureVector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ui_SideBySideRenderWindowsQt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_SideBySideRenderWindowsQt1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_VolVis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\VolVis\CMakeLists.txt" />
+    <CustomBuild Include="..\VolVis\SideBySideRenderWindowsQt.ui" />
+    <CustomBuild Include="..\VolVis\SideBySideRenderWindowsQt1.ui" />
+    <CustomBuild Include="..\VolVis\VolVis.ui" />
+    <CustomBuild Include="CMakeFiles\63d9ba3a12a30c6d3ecc25b15f359532\moc_VolVis.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7FD14E20-FEEA-442E-9347-E91BC07FE92C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CDE0DBC6-F400-4F49-BF02-63AD2D67FB0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E80E99CD-159A-43E8-A9FF-5E8737023E57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
