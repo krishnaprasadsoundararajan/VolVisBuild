@@ -7,14 +7,23 @@
     <ClCompile Include="..\VolVis\VolVisDriver.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="moc_VolVis.cxx">
+    <ClCompile Include="..\VolVis\FeatureVector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FeatureVector.cpp">
+    <ClCompile Include="moc_FeatureVector.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_VolVis.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\VolVis\FeatureVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VolVis\VolVis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="ui_SideBySideRenderWindowsQt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -24,16 +33,16 @@
     <ClInclude Include="ui_VolVis.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FeatureVector.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\VolVis\CMakeLists.txt" />
     <CustomBuild Include="..\VolVis\SideBySideRenderWindowsQt.ui" />
     <CustomBuild Include="..\VolVis\SideBySideRenderWindowsQt1.ui" />
     <CustomBuild Include="..\VolVis\VolVis.ui" />
-    <CustomBuild Include="CMakeFiles\63d9ba3a12a30c6d3ecc25b15f359532\moc_VolVis.cxx.rule">
+    <CustomBuild Include="CMakeFiles\bcbcdd360c9b03b30d2f6f61a8be8b48\moc_FeatureVector.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\bcbcdd360c9b03b30d2f6f61a8be8b48\moc_VolVis.cxx.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>

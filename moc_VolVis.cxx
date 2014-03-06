@@ -22,7 +22,7 @@ static const uint qt_meta_data_VolVis[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-      18,   14, // methods
+      20,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -43,13 +43,15 @@ static const uint qt_meta_data_VolVis[] = {
      176,    7,    7,    7, 0x0a,
      191,    7,    7,    7, 0x0a,
      205,    7,    7,    7, 0x0a,
-     217,    7,    7,    7, 0x0a,
-     231,    7,    7,    7, 0x0a,
+     218,    7,    7,    7, 0x0a,
+     230,    7,    7,    7, 0x0a,
      244,    7,    7,    7, 0x0a,
-     263,    7,    7,    7, 0x0a,
-     281,    7,    7,    7, 0x0a,
-     298,    7,    7,    7, 0x0a,
-     317,  313,    7,    7, 0x0a,
+     257,    7,    7,    7, 0x0a,
+     276,    7,    7,    7, 0x0a,
+     294,    7,    7,    7, 0x0a,
+     311,    7,    7,    7, 0x0a,
+     326,    7,    7,    7, 0x0a,
+     337,    7,    7,    7, 0x0a,
 
        0        // eod
 };
@@ -60,11 +62,11 @@ static const char qt_meta_stringdata_VolVis[] = {
     "slotExit()\0setSliceNumberLeft(int)\0"
     "setSliceNumberCenter(int)\0"
     "setSliceNumberRight(int)\0renderLeft()\0"
-    "renderCenter()\0renderRight()\0clearleft()\0"
-    "clearcenter()\0clearright()\0"
+    "renderCenter()\0renderRight()\0renderMain()\0"
+    "clearleft()\0clearcenter()\0clearright()\0"
     "renderGreenColor()\0renderBlueColor()\0"
-    "renderRedColor()\0renderEraser()\0,,,\0"
-    "GetPointGradient(int,int,int,vtkImageData*)\0"
+    "renderRedColor()\0renderEraser()\0"
+    "trainSVM()\0updateImageArrayafterTraining()\0"
 };
 
 void VolVis::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -83,14 +85,16 @@ void VolVis::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
         case 7: _t->renderLeft(); break;
         case 8: _t->renderCenter(); break;
         case 9: _t->renderRight(); break;
-        case 10: _t->clearleft(); break;
-        case 11: _t->clearcenter(); break;
-        case 12: _t->clearright(); break;
-        case 13: _t->renderGreenColor(); break;
-        case 14: _t->renderBlueColor(); break;
-        case 15: _t->renderRedColor(); break;
-        case 16: _t->renderEraser(); break;
-        case 17: _t->GetPointGradient((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< vtkImageData*(*)>(_a[4]))); break;
+        case 10: _t->renderMain(); break;
+        case 11: _t->clearleft(); break;
+        case 12: _t->clearcenter(); break;
+        case 13: _t->clearright(); break;
+        case 14: _t->renderGreenColor(); break;
+        case 15: _t->renderBlueColor(); break;
+        case 16: _t->renderRedColor(); break;
+        case 17: _t->renderEraser(); break;
+        case 18: _t->trainSVM(); break;
+        case 19: _t->updateImageArrayafterTraining(); break;
         default: ;
         }
     }
@@ -128,9 +132,9 @@ int VolVis::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 18)
+        if (_id < 20)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 18;
+        _id -= 20;
     }
     return _id;
 }

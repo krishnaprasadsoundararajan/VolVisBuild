@@ -1,12 +1,12 @@
-﻿Build started 19-Feb-14 3:05:11 PM.
-     1>Project "E:\Semester III\Thesis\VolVis_build\ZERO_CHECK.vcxproj" on node 2 (build target(s)).
+﻿Build started 06-Mar-14 1:57:33 PM.
+     1>Project "E:\SemesterIII\Thesis\VolVis_build\ZERO_CHECK.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "x64\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild" because "AlwaysCreate" was specified.
        FinalizeBuildStatus:
          Deleting file "x64\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild".
          Touching "x64\Debug\ZERO_CHECK\ZERO_CHECK.lastbuildstate".
-     1>Done Building Project "E:\Semester III\Thesis\VolVis_build\ZERO_CHECK.vcxproj" (build target(s)).
+     1>Done Building Project "E:\SemesterIII\Thesis\VolVis_build\ZERO_CHECK.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.37
+Time Elapsed 00:00:00.30

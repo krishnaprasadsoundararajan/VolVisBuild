@@ -59,12 +59,12 @@
 -IC:/Qt/qt-4.8.5-x64-msvc2010/include
 -IC:/Qt/qt-4.8.5-x64-msvc2010/include/QtGui
 -IC:/Qt/qt-4.8.5-x64-msvc2010/include/QtCore
--IE:/Semester III/Thesis/VolVis
--IE:/Semester III/Thesis/VolVis_build
+-IE:/SemesterIII/Thesis/VolVis
+-IE:/SemesterIII/Thesis/VolVis_build
 -DQT_DLL
 -DQT_GUI_LIB
 -DQT_CORE_LIB
 -DWIN32
 -o
-E:/Semester III/Thesis/VolVis_build/moc_VolVis.cxx
-E:/Semester III/Thesis/VolVis/VolVis.h
+E:/SemesterIII/Thesis/VolVis_build/moc_VolVis.cxx
+E:/SemesterIII/Thesis/VolVis/VolVis.h

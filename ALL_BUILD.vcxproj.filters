@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <CustomBuild Include="..\VolVis\CMakeLists.txt" />
-    <CustomBuild Include="CMakeFiles\e62c13c51fe729220555e3b1cd61932e\ALL_BUILD.rule">
+    <CustomBuild Include="CMakeFiles\a2df8d3cb039acdfb90065c8503c98f6\ALL_BUILD.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
