@@ -1,4 +1,4 @@
-﻿Build started 06-Mar-14 1:57:33 PM.
+﻿Build started 12-Mar-14 11:34:11 AM.
      1>Project "E:\SemesterIII\Thesis\VolVis_build\ZERO_CHECK.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "x64\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -9,4 +9,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.30
+Time Elapsed 00:00:00.20
